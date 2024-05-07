@@ -1,0 +1,2 @@
+. $PSScriptRoot\config.ps1
+Spriggit.CLI.exe serialize --InputPath "$ModFolder\$ModName.esp" --OutputPath ".\workdir\src\$ModName.esp" --GameRelease $GameRelease.SpriggitGameRelease --PackageName Spriggit.yaml

@@ -1,0 +1,5 @@
+New-Item -Path "." -Name "packaging" -ItemType "directory"
+New-Item -Path "." -Name "workdir" -ItemType "directory"
+New-Item -Path ".\workdir\" -Name "projects" -ItemType "directory"
+New-Item -Path ".\workdir\" -Name "src" -ItemType "directory"
+New-Item -Path ".\workdir\src" -Name "archive" -ItemType "directory"
